@@ -62,7 +62,56 @@ header {
 	width: 120px;
 }
 
+.carousel {
+	width: 95%;
+	margin: 0 auto;
+}
+
 .family {
 	width: 100%;
 	margin: 0 auto;
+}
+
+.contact {
+	display: flex;
+	margin: 0px 10px;
+}
+
+.horizontal {
+	margin: auto;
+}
+
+.about-family {
+	width: 90%;
+	margin-left: 45px;
+	margin-top: 50px;
+}
+
+p {
+	margin: 20px;
+	line-height: 1.4;
+}
+
+.video {
+	display: flex;
+	justify-content: center;
+}
+
+iframe {
+	width: 90%;
+	height: 450px;
+	margin-bottom: 100px;
+}
+
+footer {
+	color: white;
+	font-size: 11px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer a {
+	color: white;
+	text-decoration: none;
 }
